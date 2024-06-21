@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's game of life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="centered">
+        <canvas id="canvas" width="200" height="100"></canvas>
+        <div class="center_buttons">
+            <input type="button" id="start" value="Run">
+            <input type="button" id="stop" value="Pause">
+            <input type="button" id="save" value="Save">
+            <input type="button" id="reset" value="Reset">
+            <input type="button" id="clear" value="Clear">
+        </div>
+        <div class="center_buttons">
+            <label for="canvasSize">Size: </label>
+            <select name="canvasSize" id="canvasSize">
+                <option value="small" selected>Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <input type="button" id="valid" value="Apply">
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

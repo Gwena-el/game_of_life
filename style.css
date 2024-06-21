@@ -1,0 +1,27 @@
+body {
+    background-color: #313131;
+}
+
+.centered {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.center_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#canvas {
+    background-color: #8A8989;
+    width: 400px;
+    height: 200px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    margin: 5px 2px;
+}
